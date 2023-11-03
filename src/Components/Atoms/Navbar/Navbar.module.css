@@ -1,0 +1,107 @@
+nav {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    box-shadow: 0 8px 11px rgb(14 55 54 / 15%);
+    padding: 20px 100px;
+    transition: 0.5s;
+  }
+
+  nav p{
+    font-size: 1.2rem;
+    text-align: center;
+    align-items: center;
+    font-weight: 600;
+    color: #002D62;
+  }
+
+  .logo {
+    margin-right: 0.8rem;
+  }
+
+  .menu {
+    cursor: pointer;
+    display: none;
+  }
+  .navbar {
+    display: flex;
+    column-gap: 0.5rem;
+  }
+  .navbar a {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #1a2428;
+    padding: 0.5rem 1rem;
+  }
+  .navbar a:hover{
+    background-color: #002d62;
+    border-radius: 5rem;
+    color: white;
+    transition: 0.5s;
+  }
+  .Navbar_active {
+    background-color: #002d62;
+    border-radius: 5rem;
+    color: white;
+    transition: 0.5s;
+  }
+  
+  @media only screen and (max-width: 865px) and (min-width: 450px) {
+    .menu {
+      display: initial;
+      font-size: 1em;
+    }
+    .navbar {
+      display: none;
+      position: absolute;
+      width: 100%;
+      margin-top: 27rem;
+      background-color: whitesmoke;
+      margin-left: -6rem;
+      margin-right: 5rem;
+    }
+    #menu {
+      display: flex;
+      flex-direction: column;
+    }
+    .navbar a {
+      padding: 1rem;
+      margin: 1rem;
+      display: block;
+    }
+  }
+  @media only screen and (max-width: 449px) {
+    .menu {
+      display: initial;
+      font-size: 1em;
+      margin-right: -5rem;
+    }
+    .navbar {
+      display: none;
+      position: absolute;
+      width: 100%;
+      margin-top: 27rem;
+      background-color: whitesmoke;
+      margin-left: -6rem;
+      margin-right: 5rem;
+    }
+    #menu {
+      display: flex;
+      flex-direction: column;
+    }
+    .navbar a {
+      padding: 1rem;
+      margin: 1rem;
+      display: block;
+    }
+    .logo {
+      margin-left: -5rem;
+    }
+  }
+  

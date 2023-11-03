@@ -1,0 +1,68 @@
+.outer{
+    border: 2px solid brown;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin: 1rem;
+    height: 450px;
+    width: 500px;
+}
+
+.icon{
+    font-size: 2rem;
+    margin-right: 1rem;
+}
+
+.header{
+    display: flex;
+}
+
+.header h3{
+    font-size: 1.3rem;
+}
+
+.title{
+    margin-left: 3rem;
+}
+
+.section{
+    display: flex;
+}
+
+.icon1{
+    /* border: 2px solid green; */
+    font-size: 2rem;
+    margin-top: 1.8rem;
+    margin-right: 1rem;
+}
+
+.icon2{
+    font-size: 1rem;
+    margin-left: 0.6rem;
+    margin-top: 1.8rem;
+    margin-right: 1.6rem;
+}
+
+.icon3{
+    font-size: 1.5rem;
+    margin-right: 1rem;
+    /* border: 2px solid green; */
+}
+
+.field{
+    /* border: 2px solid green; */
+    margin-top: 1rem;
+    line-height: 2rem;
+}
+
+.field textarea{
+    width: 25rem;
+}
+
+.text{
+    /* border: 2px solid red; */
+    margin-top: 0.3rem;
+    display: flex;
+    margin-left: -2rem;
+    /* gap: 1rem; */
+    width: 20rem;
+}

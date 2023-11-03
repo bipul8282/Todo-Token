@@ -1,0 +1,71 @@
+.wrapper{
+    margin-top: 4.4rem;
+    height: 100vh;
+    display: flex;
+}
+
+.container{
+    width:80vw;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.sidebar{
+    width: 20vw;
+    background-color: #18191d;
+    color: white;
+}
+
+.sidemenu{
+    margin-top: 1.5rem;
+}
+
+.listItem {
+    display: flex;
+    align-items: center;
+    line-height: 3rem;
+}
+  
+.icon {
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+}
+ 
+.text {
+    margin-left: 0.5rem;
+}
+  
+.membersList{
+ margin-left: 5rem;
+ list-style-type: disc;
+ line-height: 2rem;
+} 
+
+.membersList li{
+    list-style-type: circle;
+    padding-left: 0.5rem; 
+}
+
+.membersList a{
+    color: white;
+}
+
+.imageLabel {
+    margin-left: 1rem; 
+}
+
+.sideImg{
+    margin-left: 2.5rem;
+    padding-left: 0.5rem; 
+    list-style-type: circle;
+}
+
+.text:hover,
+.membersList a:hover,
+.imageLabel:hover,
+.theme:hover{
+  color: red; 
+  cursor: pointer; 
+}

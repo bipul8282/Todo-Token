@@ -1,0 +1,19 @@
+/*.outer{
+    
+}
+
+.nav{
+    border: 1px solid black;
+    height: 7vh;
+}
+.Main{
+    height: 93vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-image: linear-gradient(to right, rgb(140, 189, 231) , rgb(52, 134, 249));
+    
+}
+.WorkSpace{
+
+}*/

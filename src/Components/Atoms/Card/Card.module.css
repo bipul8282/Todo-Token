@@ -1,0 +1,211 @@
+.addCardFooter{
+    
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cross{
+    background: none;
+    border: none;
+    color: aliceblue;
+    font-size: 20px;
+
+}
+
+
+.container{
+    
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.item{
+    margin: 15px;
+    height: fit-content;
+    width: 270px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #405565;
+    border: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.inputTodoAdder{
+    height: 30px;
+    width: 200px;
+    margin: 15px;
+}
+.card{
+    background-color: #1867a4;
+}
+.itemCard{
+    
+    margin: 15px;
+    height: 100px;
+    
+    border-radius: 5px;
+   
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.inputodo{
+    height: 30px;
+  
+}
+
+.cardHeader{
+    display: flex;
+    flex-direction: row;
+ 
+    width: 30px;
+    margin-right: 0;
+}
+.todoitemContainer{
+    background-color: #86adca;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 220px;
+    padding: 4px;
+    margin: 2px;
+}
+.iconContainer{
+   
+}
+.editIcon{
+  margin-right: 15px;
+}
+.ToAdd{
+    margin-top: 2rem;
+    border: 1px solid rgb(129, 125, 125);
+    height: 60px;
+    width: 250px;
+    border-radius: 10px;
+    background-color: rgb(41, 41, 43);
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.addIcon{
+    font-size: 20px;
+
+}
+
+.outer{
+    margin-top: 2rem;
+    margin-left: 1rem;
+    border: 1px solid rgb(255, 255, 255);
+    height: 9rem;
+    width: 20rem;
+    border-radius: 10px ;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.input{
+    width: 70%;
+    height: 25%;
+    border-radius: 5px;
+    padding: 2px;
+    
+}
+.input:focus{
+    outline: none;
+}
+.below{
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap:1rem;
+}
+.btn{
+    height: 25px;
+    width: 100px;
+    background-color: #1867a4;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+.delete{
+   color: rgb(255, 255, 255);
+   font-size: 15px;
+   background-color: #405565;
+   border: none;
+   margin: 10px;
+   padding: 5px;
+}
+.addedCard{
+    background-color: rgb(37, 54, 66);
+    color: aliceblue;
+  
+    margin: 2rem;
+    border: 1px solid rgb(255, 255, 255);
+    width: 250px ;
+    height: fit-content;
+    min-height: 100px;
+    border-radius: 5px;
+
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+}
+.cardHeader{
+    width: 100%;
+   
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px;
+}
+.todoAdder{
+    background-color: #405565;
+    border: 1px solid white;
+   
+    gap: 2px;
+    margin-top: 2rem;
+   
+    min-height: 7rem;
+    width: 15rem;
+    border-radius: 10px ;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.todos{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+}
+.todoItems{
+    width: 90%;
+    height: 30px;
+    background-color: steelblue;
+    border-radius: 5px;
+    padding: 4px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
